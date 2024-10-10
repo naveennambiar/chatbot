@@ -1,0 +1,23 @@
+1. dialogflow used to be a platform called api.ai which was acquired by google. - https://dialogflow.cloud.google.com/
+2. it provides a platform for NLU natural lanuage understanding platform used to creaete chatbots using this we wont be needing to train the chatbot from scratch.
+3. chatbot is called an agent in dialogflow
+4.aws lex  is one another platform for creating such chatboxs .. wet.ai facebook"s
+5.while creating a project , ther is a option to select mega agent option that is for creating chat bot like siri and okgooge which is beyond the scope of this project.
+6.intent - the task which user gives to the chatbot is basically called intent
+7.entites - main keywords like whats my phone number is intent and ohone number is entity
+8.fulfillment - to process the task like currency conversion using flask api for example and then sending the result back to the chatbot
+9.integration - to connect it with facebook , whatsapp , google etc.
+10.default intent avaialble are fallback and welcome intent and in the left corner you can try it out 
+11. fall back intent trigers when chatbox doesnt know what to do.
+12.flask is a micro framework where as django is a full fledge framework.
+13.ngrok is a tunneling software brings any port of machine online. this during production as to upload everytime during production is not feasible as frequent updation is inevitable after production we can move it to herocu or aws.
+14.html forms m jb data fill krke bhejte ho server p voh post method se jata h or data url k though bheja ho toh usse get method khte h and jb bhi post ka data use krna h ya recieve krna h toh decorator{ @app.route()} k 
+andr methods=['post'] pass kroge.
+15.from get.json function  we get data 
+
+
+
+
+home work -
+read what is intent etc from the dialogflow know more buttton.
+small talk customization
